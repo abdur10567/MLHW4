@@ -92,10 +92,9 @@ for h in n_hidden:  # looking or the best parameters w.r.t the number of hidden 
             if currentAccuracy > highestAccuracy:
                 highestAccuracy = currentAccuracy
                 print("Highest accuracy so far: " + str(highestAccuracy))
-
-            print("Parameters: " + "Number of Hidden Layers: " + str(h) + ",number of neurons: " + str(
-                   n) + ",learning rate: " + str(l))
-            print()
+                print("Parameters: " + "Number of Hidden Layers: " + str(h) + ",number of neurons: " + str(
+                       n) + ",learning rate: " + str(l))
+                print()
 
 
 # After generating all neural networks, print the final weights and biases of the best model
